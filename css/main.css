@@ -1,9 +1,116 @@
-h1 {
-	font-family: Tangerine;
-	font-size: 50px;
+body {
+	background-color: #e1eaea;
 }
 
-p {
-	font-family: Ubuntu;
-	font-size: 20px;
+.name {
+	-webkit-transition: all .3;
+	-moz-tranition: all .3s;
+	-o-transition: all .3s;
+	position: relative;
 }
+
+.profilePic {
+	-webkit-transition: all .17s;
+	-webkit-filter: grayscale(25%);
+	-moz-transition: all .17s;
+	-moz-filter: grayscale(25%);
+	-o-transition: all .17s;
+	-o-filter: grayscale(25%);
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.homeButton {
+	float: left;
+	position:relative;
+	
+}
+
+.navButton {
+	float: right;
+	position:relative;
+	display: inline;
+	
+	
+}
+
+.biocontainer:hover > .name{
+	-webkit-transform: translate(0px,8px);
+	-moz-transform: translate(0px,8px);
+	-o-transform: translate(0px,8px);
+}
+
+.symbol{
+  font-size: 50px;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons > a {
+  text-decoration: none;
+  padding-top: 25px;
+}
+
+.socicon-button [class^="socicon-"], .socicon-button [class*=" socicon-"] {
+  font-size: 40px;
+}
+
+.socicon{
+  transition: all .17s;
+  text-shadow: 2px 2px 5px #d6d6d6;
+}
+
+.socicon:hover{
+  text-shadow: 2.5px 2.5px 0px #aaaaaa;
+}
+
+.headContainer {
+	position: relative;
+}
+
+
+.navButton{
+  float: right;
+  padding-left: 30px;
+  margin-top: 18px;
+}
+
+.navButton > a{
+  text-decoration: none;
+  color: black;
+}
+
+.navButton > a:hover{
+  color: #1EAEDB;
+}
+
+.homeButton{
+  float: left;
+}
+
+.homeButton > a{
+  text-decoration: none;
+}
+
+.profilePicNameText {
+	margin-top: 15px;
+}
+
+.socialMediaText {
+	
+	padding: 0px;
+	padding-top:10px;
+}
+
+.socialMediaText {
+	margin-top: 10px;
+}
+
+.headContainer {
+	position: relative;
+}
+
