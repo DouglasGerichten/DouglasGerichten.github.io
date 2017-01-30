@@ -102,12 +102,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap {
 	background: url(../img/back.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
+	margin-top: -4.375em; /* 70px */
+	padding-top: 15.625em; /* 250px */
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
+	min-height: 40.625em; /* 650px */
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -123,10 +123,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap h1 {
 	color:#ffffff;
-	padding-top: 10px;
-	padding-bottom: 20px;
-	letter-spacing: 4px;
-	font-size: 80px;
+	padding-top: .625em; /* 10px */
+	padding-bottom: 1.250em; /* 20px */
+	letter-spacing: .250em; /* 4px */
+	font-size: 5em; /* 80px*/
 	font-weight: bold;
 }
 
@@ -136,13 +136,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #social {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 3.125em; /* 50px */
+	padding-bottom: 3.125em; /* 50px */
 	background-color: #f2f2f2;
 }
 
 #social i {
-	font-size: 40px;
+	font-size: 2.5em; /* 40px */
 	color: #4a4a4a
 }
 
@@ -151,24 +151,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footerwrap {
-	padding-top: 70px;
-	padding-bottom: 50px;
+	padding-top: 4.375em; /* 70px */
+	padding-bottom: 3.125em; /* 50px */
 	background-color: #2f2f2f;
 }
 
 #footerwrap p {
 	color: #f2f2f2;
-	margin-left: 10px;
+	margin-left: .625em; /* 10px */
 }
 
 #workwrap {	
 	background: url(../img/work.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
+	margin-top: -4.375em; /* -70px */
+	padding-top: 15.625em;/* 250px */
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
+	min-height: 40.625em; /* 650px */
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -184,10 +184,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #workwrap h1 {
 	color:#ffffff;
-	padding-top: 10px;
-	padding-bottom: 20px;
-	letter-spacing: 4px;
-	font-size: 80px;
+	padding-top: .625em; /* 10px */
+	padding-bottom: 1.250em; /* 20px */
+	letter-spacing: .250em; /* 4px */
+	font-size: 5em; /* 80px */
 	font-weight: bold;
 }
 
@@ -198,12 +198,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #aboutwrap {	
 	background: url(../img/about.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
+	margin-top: -4.375em; /*-70px */
+	padding-top: 15.625em; /* 250px */
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 550px;
+	min-height: 34.375em; /* 550px */
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Gallery */
 .gallery {
-	margin-top: 30px;
+	margin-top: 1.875em; /* 30px */
 }
 
 .gallery img:hover {
