@@ -1,0 +1,61 @@
+<!-- HTML Code for scoreboard-->
+<!-- credit: Douglas Gerichten-->
+<!-- gerichten.douglas@gmail.com-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<!--linking scoreboard HTML to CSS and Javascript-->
+<link href="scoreboard.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="scoreBoard.js"></script>
+
+<title>Scoreboard</title>
+</head>
+<body>
+
+<!--*****Left half*****-->
+
+<!--To change default text, change 'value' here and the 'nameBoxDefault' in the Javascript file-->
+<div id="nameBox">
+	<input type="text" value="Enter team name" id="name"/>
+</div>
+
+<!--ScoreButton group-->
+<!--DO NOT change type, class, id, or onclick-->
+<!--Chaning value will alter the text displayed on the button-->
+	<input type="submit" class="ScoreButton" id="plusten" value="+10" onclick="score1PlusTen()" />
+	<input type="submit" class="ScoreButton" id="minusten" value="-10" onclick="score1MinusTen()" />
+	<input type="submit" class="ScoreButton" id="reset" value="RESET" onclick="score1Reset()" />
+<!-- /ScoreButton group-->
+
+<div id="score">
+	<p id="score1Number">0</p>
+</div>
+
+<!--Vertical diving line-->
+<div class="verticalLine">
+<p>:LINE:</p>
+</div>
+
+<!--*****Right Half*****-->
+
+<!--To change default text, change 'value' here and the 'nameBoxDefault' in the Javascript file-->
+<div id="nameBox2">
+	<input type="text" value="Enter team name" id="name2"/>
+</div>
+
+
+<!--ScoreButton group-->
+<!--DO NOT change type, class, id, or onclick-->
+<!--Changing value will alter the text displayed on the button-->
+	<input type="submit" class="ScoreButton" id="plusten2" value="+10" onclick="score2PlusTen()" />
+	<input type="submit" class="ScoreButton" id="minusten2" value="-10" onclick="score2MinusTen()" />
+	<input type="submit" class="ScoreButton" id="reset2" value="RESET" onclick="score2Reset()" />
+<!-- /ScoreButton group-->
+
+<div id="score2">
+	<p id="score2Number">0</p>
+</div>
+
+</body>
+</html>

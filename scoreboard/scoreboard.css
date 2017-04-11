@@ -1,0 +1,137 @@
+/*========================================================
+	* This is the css code for scoreboard*
+	* Values can be changed to affect COLORS and SPACING/POSITIONING
+	* Changing colors: personal preference, causes no harm
+	* Changing spacing/positioning: alters layout of scoreboard. Make small changes, save, and check to adjust for layout errors on different screens
+	* 
+	* The code is broken up into labeled sections
+	*
+	* -Douglas Gerichten
+	*      gerichten.douglas@gmail.com
+===========================================================*/
+
+
+/*vertical line dividing both halves of the scoreboard*/
+.verticalLine
+{
+position: absolute;
+left: 50%;
+top: 0em;
+border-left: .3em solid #333333;
+height: 100%;
+width: .5em;
+color: #ffffff;
+}
+
+
+/*general properties for scorebuttons*/
+.ScoreButton
+{
+border-radius: 50%;
+height: 5em;
+width: 5em;
+//box-shadow: .25em .25em .15em #888888;
+margin:0em;
+position: absolute;
+/*positioning VALUES might have to be adjusted for each #id when screens switch! KEEP it absolute though!*/
+top: 80%;
+font-size: 1.25em;
+text-align: center;
+border: .1em solid #333333;
+z-index: 1;
+}
+.ScoreButton:hover
+{
+opacity: .75;
+height: 4.75em;
+width: 4.75em;
+}
+
+
+/* left scoreButtons */
+#plusten
+{
+background:linear-gradient(to bottom, #dd4814, #e77e5a);
+left: 22.5em;
+}
+#minusten
+{
+background:linear-gradient(to bottom, #772953, #9f6986);
+left: 11.5em;
+}
+#reset
+{
+background: #333333;
+color: white;
+left: 17em;
+border: .1em solid white;
+}
+
+
+/* right scoreButtons */
+#plusten2
+{
+background:linear-gradient(to bottom, #dd4814, #e77e5a);
+right: 22.5em;
+}
+#minusten2
+{
+background:linear-gradient(to bottom, #772953, #9f6986);
+right: 11.5em;
+}
+#reset2
+{
+background: #333333;
+color: white;
+right: 17em;
+border: .1em solid white;
+}
+#name, #name2
+{
+text-align: center;
+font-size: 3em;
+border: .2em solid #333333;
+border-radius: 20%;
+font-family: ubuntu, verdana;
+}
+
+
+/*left side*/
+#nameBox
+{
+position: absolute;
+left: 0em;
+width: 50%;
+text-align: center;
+}
+#score
+{
+position: absolute;
+left: 0em;
+width: 50%;
+text-align: center;
+font-size: 12em;
+font-family: ubuntu, verdana;
+z-index: -1;
+//background-image: url("gameshowlogo2.gif");
+}
+
+
+/*right side*/
+#nameBox2
+{
+position: absolute;
+right: 0em;
+width: 50%;
+text-align: center;
+}
+#score2
+{
+position: absolute;
+right: 0em;
+width: 50%;
+text-align: center;
+font-size: 12em;
+font-family: ubuntu, verdana;
+z-index: -1;
+}
